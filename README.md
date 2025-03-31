@@ -25,7 +25,7 @@ This will build a release version of the project and put it in the `target/relea
 
 ## How to use
 
-First download the executables from the release page.
+First download the executables from the [release](https://github.com/Saturn7569/ProjC/releases/tag/v1.0.0) page.
 Then run the executable.
 
 You can use `projc new <name>` to create a new project.
