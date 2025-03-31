@@ -11,6 +11,18 @@ Here is a list of all the dependencies *(crates)* in this project:
 - Loading toml - [toml](https://docs.rs/toml/latest/toml/)
 - Colorful text - [colored](https://docs.rs/colored/latest/colored/)
 
+## Building from source
+
+First, make sure you have [rust](https://www.rust-lang.org) installed.
+
+Then download the source code, open the terminal and run:
+
+```sh
+cargo build --release
+```
+
+This will build a release version of the project and put it in the `target/release` directory.
+
 ## How to use
 
 First download the executables from the release page.
@@ -35,6 +47,8 @@ To build a project run:
 ```sh
 projc build
 ```
+
+This will build a release version of the project and put it in the `target` directory.
 
 And to clean the built files run:
 
