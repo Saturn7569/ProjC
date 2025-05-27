@@ -1,4 +1,4 @@
-# ProjC
+<h1 align="center">ProjC</h1>
 
 A C project and package manager
 
