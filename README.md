@@ -11,6 +11,8 @@ Here is a list of all the dependencies *(crates)* in this project:
 - Loading toml - [toml](https://docs.rs/toml/latest/toml/)
 - Colorful text - [colored](https://docs.rs/colored/latest/colored/)
 
+- **C compiler - GCC**
+
 ## Building from source
 
 First, make sure you have [rust](https://www.rust-lang.org) installed.
