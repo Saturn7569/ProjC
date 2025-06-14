@@ -1,4 +1,4 @@
-# ProjC
+<h1 align="center">ProjC</h1>
 
 A C project and package manager
 
@@ -10,6 +10,8 @@ Here is a list of all the dependencies *(crates)* in this project:
 - Command line arguments - [clap](https://docs.rs/clap/latest/clap/)
 - Loading toml - [toml](https://docs.rs/toml/latest/toml/)
 - Colorful text - [colored](https://docs.rs/colored/latest/colored/)
+
+- **C compiler - GCC**
 
 ## Building from source
 
