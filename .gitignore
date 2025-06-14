@@ -1,2 +1,5 @@
 # Rust build files
 /target
+
+# Test C directory
+/test

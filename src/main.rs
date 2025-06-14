@@ -14,7 +14,7 @@ fn main() {
     let cli = Cli::parse();
 
     match cli.command {
-        Some(Commands::New { name }) => {
+        Some(Commands::New { name, nogitignore }) => {
             println!(
                 "Creating new {} application named \'{}\'...",
                 "binary".truecolor(128, 128, 128),
@@ -33,7 +33,7 @@ fn main() {
                 _ => {},
             }
 
-            match write_to_files(&name) {
+            match write_to_files(&name, !nogitignore) {
                 Err(err) => {
                     eprintln!(
                         "{}: {}",

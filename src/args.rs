@@ -12,6 +12,9 @@ pub enum Commands {
     New {
         #[arg(help = "The name of the new project")]
         name: String,
+
+        #[arg(long, help = "Doesn't create a .gitignore")]
+        nogitignore: bool,
     },
 
     Build,
